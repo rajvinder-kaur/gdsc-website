@@ -6,7 +6,7 @@ import React from 'react'
 // import Imagegallery from '../components/Imagegallery';
 import Collabs from '../components/Collabs';
 import Contacts from '../components/Contacts';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 
 
@@ -20,7 +20,7 @@ function Landingpage() {
      <Imagegallery /> */}
      <Collabs />
      <Contacts />
-     {/* <Footer /> */}
+     <Footer />
     </>
   )
 }
