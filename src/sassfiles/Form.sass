@@ -1,0 +1,99 @@
+@import 'var.sass'
+.main
+    font-family: $font
+    @media (max-width: 1024px)
+        margin: 0px 58px
+    @media (max-width: 600px)
+        margin: 0px 0px
+    .main_two
+        max-width: 1000px !important
+        .box
+            background-color: rgba(0, 0, 0, 0.2)
+            display: flex
+            text-align: left
+            margin: 0% !important
+            padding: 60px 0px !important
+            width: 100%
+            padding: 4%
+            .container_form
+                padding: 0px 50px !important
+                width: 100% !important
+                width: fit-content
+                input
+                    border-bottom: 1px solid rgba(102, 99, 99, 0.473)
+                    border-top: none
+                    border-left: none
+                    border-right: none
+                    padding: 2%
+                    outline-width: 0px
+                    background-color: transparent
+                    transition: all 0.3s
+                    padding-left: 0%
+                    color: white
+                    &:focus
+                        border-bottom: 1px solid rgb(57, 181, 74)
+                textarea
+                    border-bottom: 1px solid rgba(102, 99, 99, 0.473)
+                    border-top: none
+                    border-left: none
+                    border-right: none
+                    padding: 2%
+                    outline-width: 0px
+                    background-color: transparent
+                    transition: all 0.3s
+                    padding-left: 0%
+                    color: white
+                    &:focus
+                        border-bottom: 1px solid rgb(57, 181, 74)
+                .btn
+                    // margin-top: 4%
+                    padding: 3%
+                    color: white
+                    background-color: rgb(57, 181, 74) !important
+            .info
+                // display: flex
+                width: 100% !important
+                @media (max-width: 600px)
+                    text-align: center
+                h6
+                    font-weight: 900
+                    @media (max-width: 1024px)
+                        display: none
+                    @media (max-width: 600px)
+                        display: none
+                ol
+                    list-style-type: none
+                    display: flex
+                    padding-left: 0% !important
+                    padding-top: 5%
+                    justify-content: space-between
+                    flex-direction: column
+                    margin-left: 39px
+                    margin-bottom: 0px !important
+                    @media (max-width: 600px)
+                        margin-left: 0px
+                        margin-top: 15%
+                    li
+                        margin: 0px 0px 42px
+                        h5
+                            color: rgb(57, 181, 74)
+                            font-weight: 900 !important
+                        p
+                    .social
+                        height: fit-content
+                        margin-bottom: 0px
+                        font-size: 1.3rem
+                        ul
+                            flex-direction: row
+                            list-style-type: none
+                            text-align: center
+                            display: flex
+                            padding-left: 0% !important
+                            justify-content: flex-start
+                            @media (max-width: 600px)
+                                justify-content: space-around
+                            li
+                                margin: 0px 0px 42px
+                                padding-right: 4%
+                                @media (max-width: 600px)
+                                    padding-right: 0%

@@ -1,0 +1,41 @@
+.body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 7%;
+}
+@media (max-width: 600px) {
+  .body .slider .crd {
+    margin-bottom: 15%;
+    margin-top: 7%;
+  }
+}
+.body .slider .crd p {
+  width: 100%;
+  font-size: 30px;
+}
+@media (max-width: 1024px) {
+  .body .slider .crd p {
+    font-size: 22px !important;
+  }
+}
+@media (max-width: 600px) {
+  .body .slider .crd p {
+    font-size: 17px !important;
+  }
+}
+.body .slider .crd span {
+  color: grey;
+}
+.body .slider .crd #img {
+  width: 90px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 600px) {
+  .body .slider .crd #img {
+    margin-top: 15%;
+  }
+}/*# sourceMappingURL=carousel_2.css.map */

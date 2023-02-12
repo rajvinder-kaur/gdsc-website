@@ -1,26 +1,26 @@
 import React from 'react'
-import Header from '../components/Header';
-import Home from '../components/Home';
-import About from '../components/About';
-import Whatwedo from '../components/Whatwedo';
-import Imagegallery from '../components/Imagegallery';
+// import Header from '../components/Header';
+// import Home from '../components/Home';
+// import About from '../components/About';
+// import Whatwedo from '../components/Whatwedo';
+// import Imagegallery from '../components/Imagegallery';
 import Collabs from '../components/Collabs';
 import Contacts from '../components/Contacts';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 
 
 
 function Landingpage() {
   return (
     <>
-     <Header/>
+     {/* <Header/>
      <Home />
      <About />
      <Whatwedo />
-     <Imagegallery />
+     <Imagegallery /> */}
      <Collabs />
      <Contacts />
-     <Footer />
+     {/* <Footer /> */}
     </>
   )
 }

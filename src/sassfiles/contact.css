@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Tajawal:wght@200&display=swap");
+.contact {
+  background-color: rgb(78, 64, 64);
+  color: whitesmoke;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 6rem;
+  padding-top: 10rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .contact {
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+  }
+}
+.contact .subhead {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+}
+@media (max-width: 600px) {
+  .contact .subhead {
+    font-size: 1rem;
+  }
+}
+.contact .text {
+  font-size: 3rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 600px) {
+  .contact .text {
+    font-size: 2rem;
+  }
+}
+.contact h3 {
+  color: rgb(57, 181, 74);
+}/*# sourceMappingURL=contact.css.map */
