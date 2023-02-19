@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
 import Landingpage from './pages/Landingpage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './pages/About';
+import Blob from './Subcomponents/Blob';
+
 
 function App() {
   return (
-   <Landingpage/>
+   <About />
+  //  <Blob />
+  // <Landingpage/>
   );
 }
 

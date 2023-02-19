@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import imagesReducer from '../features/Carousel_1slice'
+
+
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+     images :imagesReducer
   },
 });

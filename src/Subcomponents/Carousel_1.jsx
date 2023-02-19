@@ -5,9 +5,12 @@ import "../sassfiles/demo.sass";
 import React from 'react'
 import { IoIosArrowBack } from 'react-icons/io';
 import { IoIosArrowForward } from 'react-icons/io';
+import { useSelector } from "react-redux";
+import { selectALL } from "../features/Carousel_1slice";
 
 function Carousel() {
-    const images = ["https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png", "https://logospng.org/download/react/logo-react-512.png"]
+
+ const images = useSelector(selectALL);
 
     const settings = {
         infinite: true,
@@ -20,7 +23,7 @@ function Carousel() {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 4,
+                    slidesToShow: 3,
                     slidesToScroll: 4,
                     infinite: true,
                     dots: true

@@ -3,7 +3,7 @@ import React from 'react'
 // import Home from '../components/Home';
 // import About from '../components/About';
 // import Whatwedo from '../components/Whatwedo';
-// import Imagegallery from '../components/Imagegallery';
+import Imagegallery from '../components/Imagegallery';
 import Collabs from '../components/Collabs';
 import Contacts from '../components/Contacts';
 import Footer from '../components/Footer';
@@ -16,8 +16,8 @@ function Landingpage() {
      {/* <Header/>
      <Home />
      <About />
-     <Whatwedo />
-     <Imagegallery /> */}
+     <Whatwedo /> */}
+     <Imagegallery />
      <Collabs />
      <Contacts />
      <Footer />
